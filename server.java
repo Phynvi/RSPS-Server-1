@@ -253,7 +253,7 @@ public class server implements Runnable {
 			shutdownClientHandler = false;
 			clientListener = new java.net.ServerSocket(serverlistenerPort, 1,
 					null);
-			misc.println("Ddsspeced Is online on port 43594 - To change this message go into server.java and search for 'ddsspeced is online' and change it..-Jayden");
+			misc.println("CANscape is online on port 43594 - To change this message, go into server.java and search for 'CANscape is online' and change it... -Ryan");
 			while (true) {
 				try {
 					java.net.Socket s = clientListener.accept();

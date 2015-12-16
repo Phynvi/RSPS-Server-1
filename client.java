@@ -8506,7 +8506,7 @@ l33thax(7599);
 l33thax(7549);
 l33thax(8493);
 l33thax(7499);
-sM("Welcome to Ddsspeced.");
+sM("Welcome to CANscape.");
 
 checkDupe();
 server.special.loginSpec(this, playerEquipment[playerWeapon]);
@@ -12555,7 +12555,7 @@ if(objectID == 2022 && System.currentTimeMillis() - lastAction > actionInterval 
 if(playerLevel[16] >= 1){
 toX = 2717;
 toY = 9808;
-sM("Welcome to Ddsspeced Waterfall training area!");
+sM("Welcome to Admin training area!");
 plrText = "Wewt! I made it!";
 plrTextUpdateRequired = true;
 addSkillXP(500, 16);
@@ -14644,7 +14644,7 @@ break;
 				talk("I am a wizard from another town, and I can", 2261);
 				break;
 			case 32:
-				talk("craft runes. Nobody in Ddsspeced can craft runes!", 2261);
+				talk("craft runes. Nobody in Gielinor can craft runes!", 2261);
 				break;
 			case 33:
 				talk("I can turn worthless essence into costful runes.", 2261);
@@ -14919,7 +14919,7 @@ break;
 				choice("Yes.", "No.");
 				break;
 			case 111:
-				talk("Hi! I have to decided to visit Ddsspeced", 1552);
+				talk("Hi! I have to decided to visit Gielinor.", 1552);
 				break;
 			case 112:
 				talk("for it's 1 year birthday party.", 1552);

@@ -1,8 +1,8 @@
 public class textHandler {
 	public void startText(int ID) {
 client c = (client) server.playerHandler.players[ID];
-c.sendQuest("Ddsspeced Highscores", 6399);
-c.sendQuest("Dds Speced", 640);
+c.sendQuest("CANscape Highscores", 6399);
+c.sendQuest("CANscape", 640);
 c.sendQuest("Quests", 663);
 if(c.q1 == 0){
 c.sendQuest("Lost City", 7332);
@@ -136,14 +136,14 @@ if(c.bankPin != -1){
 if(c.bankPin == -1){
     c.sendQuest("@red@NONE", 15105);
 }
-c.sendFrame126("The Bank of Ddsspeced - Deposit Box", 7421);
-c.sendQuest("The Bank of Ddsspeced - Bank Pin", 14923);
+c.sendFrame126("The Bank of CANscape - Deposit Box", 7421);
+c.sendQuest("The Bank of CANscape - Bank Pin", 14923);
 c.sendQuest("", 15107);
 c.sendQuest("Set Pin", 15078);
 c.sendQuest("Delete Pin", 15082);
 c.sendQuest("", 15107);
 c.sendQuest("Set Pin", 15078);
-c.sendQuest("The Bank of Ddsspeced",5383);
+c.sendQuest("The Bank of CANscape",5383);
 c.sendQuest("",4439);
 c.sendQuest("Pest control", 10361);
 c.sendQuest("Current points:", 10378);
@@ -151,12 +151,12 @@ c.sendQuest("3rd age mage", 10374);
 c.sendQuest("Void Knight", 10375);
 c.sendQuest("100 points", 10376);
 c.sendQuest("100 points", 10377);
-c.sendQuest("3rd age melle", 6557);
+c.sendQuest("3rd age melee", 6557);
 c.sendQuest("100 points", 6559);
 c.sendQuest("3rd age range", 16159);
 c.sendQuest("100 points", 16160);
 c.sendQuest("Close Window", 15949);//Close Text
-c.sendQuest("      Ddsspeced", 15950);//Title
+c.sendQuest("      CANscape", 15950);//Title
 c.sendQuest("", 15960);//Under Title
 c.sendQuest("", 15959);//Beside ^
 c.sendQuest("", 15961);//Beside ^
@@ -164,7 +164,7 @@ c.sendQuest("Client [V17]: Forums, Server chat section", 15951);//Bottom banner-
 c.sendQuest("", 15955);//top line
 c.sendQuest("", 15953);//top line
 c.sendQuest("", 15958);//top line
-c.sendQuest("www.ddsspeced.smfforfree3.com is the forums!", 15952);//Bottom banner- bottom line
+c.sendQuest("We don't have forums (yet)!", 15952);//Bottom banner- bottom line
 c.sendQuest("         Latest update: Full magic", 15956);//bottom line
 c.sendQuest("", 15954);//bottom line
 c.sendQuest("", 15957);//bottom line
@@ -187,10 +187,10 @@ c.sendQuest("Visit the land of Monkeys", 7458);
     c.sendQuest("@gre@0/0", 13042);
     c.sendQuest("@gre@0/0", 13043);
     c.sendQuest("@gre@0/0", 13044);
-    c.sendQuest("Pking", 1325);
-    c.sendQuest("Pk here", 1326);
-    c.sendQuest("Pking", 13047);
-    c.sendQuest("Pk here", 13048);
+    c.sendQuest("PKing", 1325);
+    c.sendQuest("PK here", 1326);
+    c.sendQuest("PKing", 13047);
+    c.sendQuest("PK here", 13048);
     c.sendQuest("@gre@0/0", 13051);
     c.sendQuest("@gre@0/0", 13052);
     c.sendQuest("Beginning training", 1350);
@@ -205,16 +205,16 @@ c.sendQuest("Visit the land of Monkeys", 7458);
     c.sendQuest("Train non-combat skills here", 13064);
     c.sendQuest("@gre@0/0", 13067);
     c.sendQuest("@gre@0/0", 13068);
-    c.sendQuest("Monster tele", 1415);
+    c.sendQuest("Monster Teleport", 1415);
     c.sendQuest("Battle different monsters", 1416);
-    c.sendQuest("Monster tele", 13071);
+    c.sendQuest("Monster Teleport", 13071);
     c.sendQuest("Battle different monsters", 13072);
     c.sendQuest("@gre@0/0", 13076);
     c.sendQuest("@gre@0/0", 13077);
     c.sendQuest("@gre@0/0", 13078);
-    c.sendQuest("Minigame tele", 1454);
+    c.sendQuest("Minigame Teleport", 1454);
     c.sendQuest("Try out minigames", 1455);
-    c.sendQuest("Minigame tele", 13081);
+    c.sendQuest("Minigame Teleport", 13081);
     c.sendQuest("Try out minigames", 13082);
     c.sendQuest("@gre@0/0", 13085);
     c.sendQuest("@gre@0/0", 13086);
