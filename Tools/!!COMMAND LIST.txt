@@ -1,0 +1,148 @@
+Command List!!
+(u) = users and higher rank can use command
+(m) = moderators and higher rank can use command
+(a) = administrators and higher rank can use command
+(o) = owners only can use command
+
+::resetdrops
+(u) Not sure what it does, but it sends a message saying "[player] - turned on drops."
+
+::fcguide
+(u) Shows a weird "guide" that needs work and possibly removal? Let me know.
+
+:food
+(u) Gives you 1000 Sharks
+
+:alchs
+(u) Gives you Staff of Fire, 1000 nature runes, and 1000 Magic Longbows.
+
+::rules
+(u) Shows list of rules. Can be edited. Let me know xo :)
+
+::pure
+(a) Sets you to max combat level and shit.
+
+::ksk99j7
+(u)Does nothing. Has potential for something but idfk what it does. Something to do with "autoing"
+
+:newitem
+(m)Lags you out hard as it refreshes the item ID list in lieu of adding a new item to the game
+
+:tz
+(u)Shows a number, apparently the number of killed TZ.. whatever that is :)
+
+::prayer
+(m)Prints your prayer buff status to the chat for you to see only.
+
+::book
+(a)DO NOT USE!! Causes you to crash if you click the magic tab after. I assume it's supposed to alter something in there but it fails.
+
+::duel
+(a)Opens dueling prompt. Dunno if it works or what.
+
+::onpickup OR ::pickupon
+(m)Enables picking up items
+
+::offpickup OR ::pickupoff
+(m)Disables picking up items
+
+::spec
+(o)Adds 5000 to your special amount
+
+::people
+(u)Gets number of players in pit
+
+::update [seconds]
+(o)DO NOT USE THIS. Causes server to freak out, everyone gets kicked and can't get back in without total server reboot.
+
+::mypos
+(m)Get your current coordinates, useful for setting up shops or setting up NPC autospawns.
+
+::hail
+(o)This is fucking weird. Ask me to show you haha
+
+::pnpc
+(a)Pure lolz. can change player model to NPC with ID less than 2745
+
+::unpc
+(a)Reverts you to your normal character look
+
+::combat [number]
+(o)Adds value to your combat level. Has no effect on skill levels, purely aesthetic.
+
+::emote [value above 0 and below 3999]
+(a)Will make you perform specified emote. Useful for creating actions for doing things. (ie teleports or like secret fairy)
+
+::auto [npc id]
+(o)creates an autospawn location for NPCs at your location
+
+::spawn [npc id]
+(o)creates area for autospawn location to use for single NPC at your location
+
+::message [text]
+(o)Creates PSA (public service announcement), or Broadcast.
+
+::pass
+(u)redundant
+
+::changepassword [text]
+(u)allows you to change your password to the given shit
+
+::npc [npc id]
+(o)spawns single NPCs at your location
+
+::players
+(u)States number of players online
+
+::bootall
+(m)boots all players from server
+
+::kick [playername]
+(m)Kicks player
+
+::npcreset
+(a)Not sure. Looks like it resets boss NPCs.. unsure to test in case it blows server up ahah
+
+::master [number]
+(o)maxes your exp for the skill specified by its value. 0-20
+
+::tele [x] [y]
+(o)Teleports you to given coordinates
+
+::banuser [playername]
+(a)Bans user
+
+::ipban [playername]
+(a)IP bans user
+
+::mute [playername]
+(m)Mutes user
+
+::ipmute [playername]
+(m)mutes all players from that users IP
+
+::copy [playername]
+(a)Modifies you to be exactly like the given player
+
+::jail [playername]
+(o)Sends player to jail
+
+::xteletome [playername]
+(a)teleports player to you
+
+::xteleto [playername]
+(m)teleports you to player
+
+::bank
+(a)opens your bank
+
+::empty
+(u)empties your inventory (not bank or equipped)
+
+::pickup [item ID] [amount]
+(a)adds item to inventory. Like /give in Minecraft. ;)
+
+
+WE CAN CREATE NEW COMMANDS!! any ideas? put them in the Spreadsheet.
+
+https://docs.google.com/spreadsheets/d/1Y6NVS1krq-IV-UpQd5JBQB6K0wZuKt3L40edWbDoSw8/edit?usp=sharing

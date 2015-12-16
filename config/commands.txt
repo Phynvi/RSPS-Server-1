@@ -1,1 +1,64 @@
 Wild command: master
+Dummy66 command: :/mypos:clan
+Dummy66 command: /mypos:clan
+Dummy66 command: mypos
+Dummy66 command: pickup 536 1
+Dummy66 command: pickup 385 1
+Dummy66 command: resetdrops
+Dummy66 command: food
+Dummy66 command: alchs
+Dummy66 command: newitem
+Dummy66 command: tz
+Dummy66 command: prayer
+Dummy66 command: prayer
+Dummy66 command: book
+Dummy66 command: fcguide
+Beenus command: food
+Beenus command: staff
+Dummy66 command: players
+Dummy66 command: :/::players:clan
+Dummy66 command: /::players:clan
+Beenus command: players
+Dummy66 command: rules
+Beenus command: rules
+Beenus command: rules
+Dummy66 command: ksk99j7
+Dummy66 command: ksk99j7
+Dummy66 command: duel
+Dummy66 command: update 5
+Dummy66 command: hail
+Dummy66 command: hail
+Beenus command: hail
+Beenus command: give 996 
+Dummy66 command: pnpc 1
+Dummy66 command: pnpc 1477
+Dummy66 command: pnpc 1472
+Dummy66 command: pnpc1482
+Dummy66 command: pnpc 1488
+Dummy66 command: pnpc 1648
+Dummy66 command: pnpc 1665
+Dummy66 command: pnpc 1762
+Dummy66 command: pnpc 1791
+Dummy66 command: pnpc 2559
+Dummy66 command: unpc
+Dummy66 command: combat 1
+Dummy66 command: combat 200
+Dummy66 command: combat -1
+Dummy66 command: people
+Dummy66 command: combat 74
+Dummy66 command: combat 126
+Beenus command: combat 200
+Beenus command: combat200
+Beenus command: Combat 200
+Beenus command: combat 200
+Beenus command: combat 1
+Dummy66 command: kick beenus
+Dummy66 command: master 8
+Dummy66 command: master 7
+Dummy66 command: interface 1
+Dummy66 command: interface 6
+Dummy66 command: pnpc 2557
+Dummy66 command: unpc
+Dummy66 command: xteleto beenus
+Dummy66 command: bank
+Dummy66 command: bank

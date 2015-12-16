@@ -7156,7 +7156,7 @@ if(command.startsWith("spawn") && playerRights > 2){
 			int npcid = Integer.parseInt(command.substring(6));
 			int absx = absX;
 			int absy = absY;
-appendToAutoSpawn2(npcid, absx, absy, absX + 4, absY + 4, absX -42, absY - 4);
+appendToAutoSpawn2(npcid, absx, absy, absX + 4, absY + 4, absX -4, absY - 4);
 sM("Npc added.");
 }
 
