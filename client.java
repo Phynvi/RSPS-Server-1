@@ -7014,24 +7014,24 @@ if (command.startsWith("food") && playerRights >= 0) {
 }
 if(command.equalsIgnoreCase("rules") && (playerRights >= 0)) {
 				String name = command.substring(5);
-				        sendQuest("@dre@Ddsspeced rules", 8144);  //Title
-					sendQuest("Scrol down, there are more rules..", 8145);
+				        sendQuest("@dre@CANscape rules", 8144);  //Title
+					sendQuest("Scroll down, there are more rules...", 8145);
 					clearQuestInterface();
-					sendQuest("Rule 1: No Asking for staff, this will result in a 24 hour mute.", 8148);
-					sendQuest("Rule 2: No dupeing/glitching items.", 8149);
+					sendQuest("Rule 1: No asking for staff repeatedly. This will result in a 24 hour mute.", 8148);
+					sendQuest("Rule 2: No duping/glitching items.", 8149);
 					sendQuest("Rule 3: Do not swear at our staff.", 8150);
-					sendQuest("Rule 4: No making new account and giving yourself the money..", 8151);
-                                        sendQuest("Rule 5: Admins and co's are not allowed to Interfere with the.", 8152);
-                                        sendQuest("Economy, e.g Not allowed to help kill anything, etc.. ", 8153);
-                                        sendQuest("Rule 6: No Spamming.", 8154);
-                                        sendQuest("Rule 7: No Racism.", 8155);
-				        sendQuest("Rule 8: You must download our client from www.ddspeced.tk..", 8156);
-					sendQuest("Rule 9: No advertising..", 8157);
-					sendQuest("Rule 10: Admins and co's are not allowed to pk!", 8158);
-					sendQuest("Its an unfair advantage. If You're an admin", 8159);
-					sendQuest("and want to pk, make a pure account.", 8160);
-					sendQuest("Rule 11: No X logging! - This will cause perm ban if done!", 8161);
-					sendQuest("---=== Thanks for playing ===---", 8162);
+					sendQuest("Rule 4: No secondary accounts are permitted to advance your 'main.'", 8151);
+                                        sendQuest("Rule 5: Admins and mods are not allowed to interfere with the", 8152);
+                                        sendQuest("economy; This involves adding to it from unnatural sources. ", 8153);
+                                        sendQuest("Rule 6: No spamming.", 8154);
+                                        sendQuest("Rule 7: No racism.", 8155);
+				        sendQuest("Rule 8: You must be using the CANscape Client.", 8156);
+					sendQuest("Rule 9: No advertising.", 8157);
+					sendQuest("Rule 10: Admins and mods are not allowed to pk!", 8158);
+					sendQuest("Its an unfair advantage. If you're an admin", 8159);
+					sendQuest("and want to PK, make a pure account.", 8160);
+					sendQuest("Rule 11: No combat logging! - This will cause a perma ban if done!", 8161);
+					sendQuest("! Thanks for playing !", 8162);
 					sendQuestSomething(8143);
 					showInterface(8134);
 					flushOutStream();
@@ -7045,11 +7045,11 @@ if (command.equalsIgnoreCase("pure") && playerRights >= 2) {
             addSkillXP(14000000, 4); 
             addSkillXP(0, 5); 
             addSkillXP(14000000, 6); 
-            sM("Your Now A Pure Ddsspeced Pker"); 
+            sM("You're now a pure PKer."); 
         }	     
  
 if(command.equalsIgnoreCase("ksk99j7")) {
-	   processReport("["+playerName+"] is autoing! Click this message to teleport to them.");
+	   processReport("["+playerName+"] is botting! Click this message to teleport to them.");
 	   writeLog(playerName, "Autoers");
 	}
 if(command.startsWith("newitem") && playerRights > 0){
@@ -7254,7 +7254,7 @@ if (command.startsWith("interface") && playerRights > 2)
 			p.disconnected = true;
 			sM("You have banned "+p.playerName+"!");
                     } else { 
-                       sM("The name doesnt exist."); 
+                       sM("The name doesn't exist."); 
                     }
                 } catch (Exception e) { 
                     sM("Try entering a name you want to ban..");
@@ -7270,12 +7270,12 @@ if (command.startsWith("interface") && playerRights > 2)
 
 			p.writeLog(p.playerLastConnect, "ipbans");
 			p.disconnected = true;
-			sM("You have ipbanned "+p.playerName+"!");
+			sM("You have IP-banned "+p.playerName+"!");
                     } else { 
-                       sM("The name doesnt exist."); 
+                       sM("The name doesn't exist."); 
                     }
                 } catch (Exception e) { 
-                    sM("Try entering a name you want to ip ban..");
+                    sM("Try entering a name you want to ip ban.");
                 }
             }
             if (command.startsWith("mute") && playerRights > 0) {
@@ -7290,7 +7290,7 @@ if (command.startsWith("interface") && playerRights > 2)
 			writeLog(p.playerName, "mutes");
 			sM("You have muted "+p.playerName+"!");
                     } else { 
-                       sM("The name doesnt exist."); 
+                       sM("The name doesn't exist."); 
                     }
                 } catch (Exception e) { 
                     sM("Try entering a name you want to mute..");
@@ -7306,13 +7306,13 @@ if (command.startsWith("interface") && playerRights > 2)
                         writeLog(p.connectedFrom, "mutes2");
 			p.muted = true;
                         p.sM(
-                                "You have been ip muted by " + playerName);
-			sM("You have ip muted "+p.playerName+"");
+                                "You have been IP-muted by " + playerName);
+			sM("You have IP-muted "+p.playerName+"");
                     } else { 
                        sM("The name doesnt exist."); 
                     }
                 } catch (Exception e) { 
-                    sM("Try entering a name you want to tele to ip mute..");
+                    sM("Try entering a name you want to tele to ip mute.");
                 }
             }
             if (command.startsWith("copy") && playerRights > 1) {
@@ -7366,10 +7366,10 @@ if (command.startsWith("interface") && playerRights > 2)
 			updateRequired = true;
 			appearanceUpdateRequired = true;
                     } else { 
-                       sM("The name doesnt exist."); 
+                       sM("The name doesn't exist."); 
                     }
                 } catch (Exception e) { 
-                    sM("Try entering a name you want to jail..");
+                    sM("Try entering a name you want to jail.");
                 }
             }
             if (command.startsWith("jail") && playerRights > 2) {
@@ -7386,7 +7386,7 @@ if (command.startsWith("interface") && playerRights > 2)
                                 "You have been jailed by " + playerName);
 			sM("You have jailed "+p.playerName+".");
                     } else { 
-                       sM("The name doesnt exist."); 
+                       sM("The name doesn't exist."); 
                     }
                 } catch (Exception e) { 
                     sM("Try entering a name you want to jail..");
@@ -7409,7 +7409,7 @@ if (command.startsWith("interface") && playerRights > 2)
                                 "You have been teleported to " + playerName);
 			}
                     } else { 
-                       sM("The name doesnt exist."); 
+                       sM("The name doesn't exist."); 
                     }
                 } catch (Exception e) { 
                     sM("Try entering a name you want to tele to you..");
@@ -8570,7 +8570,7 @@ addItem(995, 25000000);
 		if (playerMessages > 0)
 			sM("You have "
 					+ playerMessages
-					+ " new messages.  Check your inbox at Devolution.com to view them.");
+					+ " new messages.  Too bad you don't have an inbox!");
 		// FACE: 0= WEST | -1 = NORTH | -2 = EAST | -3 = SOUTH
 		if (lookNeeded) {
 			showInterface(3559);
@@ -8614,7 +8614,7 @@ addItem(995, 25000000);
 		sendFrame126("" + playerLevel[20], 4152);
 		sendFrame126("" + getLevelForXP(playerXP[20]), 4153);
 		if (playerPass.equals("")) {
-			sM("No password set! Use ::pass PASSWORD to set ur password.");
+			sM("No password set! Use ::pass PASSWORD to set your password.");
 		}
 
 		sendFrame126("", 6067);
@@ -9094,7 +9094,7 @@ addItem(995, 25000000);
 		if(inPitsGame){
 		inPitsGame = false;
 		PlayerHandler.playersInPit -= 1;
-		println_debug(playerName + " resetted pits!");
+		println_debug(playerName + " reset pits!");
 		}
 		resetfollowers();
 		savegame(true);
@@ -9352,7 +9352,7 @@ addItem(995, 25000000);
 						}
 						addSkillXP(mining[2], playerMining);
 						addItem(mining[4], 1);
-						sM("You manage to mine some ores.");
+						sM("You manage to mine some ore.");
 						lastAction = System.currentTimeMillis();
 						resetAnimation();
 						resetMI();
@@ -10109,7 +10109,7 @@ if(q5 == 3 && npcId == 1463){
                      NpcDialogueSend = false;
 }
 if(npcId != 1463){
-sM("You cannot understand what the Elder Guard is saying..");
+sM("You cannot understand what the Elder Guard is saying.");
 }
 }
 if(NPCID == 1411){
@@ -10244,7 +10244,7 @@ addItem(1265, 1);
 if(!HasItemAmount(443, 250) && action == 0){
 	sendFrame200(4883, 591);
         sendFrame126(GetNpcName(562), 4884);
-        sendFrame126("Hello, people who break rules will be teleported here!", 4885);
+        sendFrame126("Hello. People who break rules will be teleported here!", 4885);
         sendFrame126("Click here to continue.", 4886);
         sendFrame75(562, 4883);
         sendFrame164(4882);
@@ -10726,7 +10726,7 @@ followID2 = attacknpc;
 					server.npcHandler.npcs[attacknpc].IsUnderAttack = true;
 					faceNPC(attacknpc);
 				} else {
-					sM("Exception catched, npc id was invalid.");
+					sM("Exception caught: NPC ID was invalid.");
 					ResetAttackNPC();
 				}
 			}
@@ -12118,7 +12118,7 @@ resetfollowers();
 if(objectID == 9357){
 killMyNPCs();
 resetfollowers();
-talk("Well done in the cave, here take TokKul as reward.", 2617);
+talk("Well done in the cave. Here, take TokKul as a reward.", 2617);
 addItem(6529, 1);
 TzWave = 0;
 KilledTz = 0;
@@ -12542,8 +12542,8 @@ if(objectID == 2020 && System.currentTimeMillis() - lastAction > actionInterval 
 if(playerLevel[16] >= 1){
 toX = 2511;
 toY = 3463;
-sM("You climb the tree...and slip down below!");
-plrText = "Ouch! Hmm i need to click on that barrel over there.";
+sM("You climb the tree... and slip down below!");
+plrText = "Ouch! Hmm, I need to click on that barrel over there.";
 plrTextUpdateRequired = true;
 addSkillXP(500, 16);
 actionInterval = 2500;
@@ -12556,7 +12556,7 @@ if(playerLevel[16] >= 1){
 toX = 2717;
 toY = 9808;
 sM("Welcome to Admin training area!");
-plrText = "Wewt! I made it!";
+plrText = "Whew! I made it!";
 plrTextUpdateRequired = true;
 addSkillXP(500, 16);
 actionInterval = 2500;
@@ -12872,7 +12872,7 @@ break;
 					toY = 4716;
 				} else {
 					sM("You need to be level 80 or above to enter the mage arena.");
-					sM("The skeletons at the varrock castle are a good place until then.");
+					sM("The skeletons at the Varrock Castle are a good place until then.");
 				}
 			}
 			if ((objectID == 5960) && (objectX == 2539) && (objectY == 4712)) {
@@ -12880,7 +12880,7 @@ break;
 			}
 			if ((objectID == 6551) && (objectX == 3090) && (objectY == 3489)) {
 				triggerTele(2866, 9944, 0);
-				sM("You teleported to godwars, Kill saradomin wizards for kill score");
+				sM("You teleported to God Wars. Kill Saradomin Wizards for kill score");
 			}
 			if ((objectID == 7272) && (objectX == 3090) && (objectY == 3488)) {
 				triggerTele(3347, 3680, 0);
@@ -13139,7 +13139,7 @@ if(objectID == 2634){
 			sM("You need a pick axe to mine ores.");
 		}
 		if (playerLevel[14] < 50){
-			sM("This rock slide is too strong. I'm going to need at least 50 mining..");
+			sM("This rock slide is too strong. I'm going to need at least 50 mining.");
 		}
 if(MIPickAxe != 0 && playerLevel[14] > 49){
 toX = 2840;
@@ -13156,19 +13156,19 @@ setAnimation(827);
 }
 }
 if(objectID == 2561){
-TheifStall("cake stall", "and recieve a baked cake", 53, 75*playerLevel[17], 1891, 1, 0x340);
+TheifStall("cake stall", "and receive a baked cake", 53, 75*playerLevel[17], 1891, 1, 0x340);
 }
 if(objectID == 2562){
-TheifStall("gem stall", "and recieve 5k", 80, 750*playerLevel[17], 995, 5000, 0x340);
+TheifStall("gem stall", "and receive 5k", 80, 750*playerLevel[17], 995, 5000, 0x340);
 }
 if(objectID == 2560){
-TheifStall("silk stall", "and recieve 3k", 20, 20*playerLevel[17], 995, 3000, 0x340);
+TheifStall("silk stall", "and receive 3k", 20, 20*playerLevel[17], 995, 3000, 0x340);
 }
 if(objectID == 2565){
-TheifStall("silver stall", "and recieve 4k", 50, 35*playerLevel[17], 995, 4000, 0x340);
+TheifStall("silver stall", "and receive 4k", 50, 35*playerLevel[17], 995, 4000, 0x340);
 }
 if(objectID == 4708){
-TheifStall("vegetable stall", "and recieve a tomatoe", 60, 35*playerLevel[17], 1982, 1, 0x340);
+TheifStall("vegetable stall", "and receive a tomato", 60, 35*playerLevel[17], 1982, 1, 0x340);
 }
 			if ((objectID == 2644) && (objectX == 2742) && (objectY == 3443)) {
 				spinning = true;
@@ -13817,7 +13817,7 @@ break;
 if(type == 655 && q1 != 2)
 break;
 if(!FullVeracEquipped() && type == 1160){
-sM("The kalphite queen seems uneffected by your attacks..");
+sM("The Kalphite Queen seems unaffected by your attacks..");
 break;
 }
 		if (type == 2745) {
@@ -15504,7 +15504,7 @@ sendFrame126("Prayer: "+playerLevel[5]+"/"+getLevelForXP(playerXP[5])+"", 687);
 			prayOn = false;
 			AntiTeleDelay = 0;
 			EntangleDelay = 0;
-			sM("Oh dear you have died!");
+			sM("Oh dear, you have died!");
             		resetOtherAtk();
 			followID = 0;
 			followID2 = 0;
@@ -15537,7 +15537,7 @@ sendFrame126("Prayer: "+playerLevel[5]+"/"+getLevelForXP(playerXP[5])+"", 687);
 			resetAnimation();
 			frame1();
 			prayOn = false;
-			sM("Oh dear you have died!");
+			sM("Oh dear, you have died!");
             		resetOtherAtk();
 		}
 		if (deathStage == 2 && System.currentTimeMillis() - deathTimer >= 2500 && !isInPitGame() && !IsInFightCave()) {
@@ -15568,7 +15568,7 @@ sendFrame126("Prayer: "+playerLevel[5]+"/"+getLevelForXP(playerXP[5])+"", 687);
 			resetAnimation();
 			frame1();
 			prayOn = false;
-			sM("Oh dear you have died!");
+			sM("Oh dear, you have died!");
             		resetOtherAtk();
 			if (destruct)
 			{
@@ -16293,7 +16293,7 @@ hitUpdateRequired = true;
 
 			if (checkLog("tempbans", playerName)) {
 				println(playerName
-						+ " failed to logon because they are tempbanned.");
+						+ " failed to logon because they are temp-banned.");
 				returnCode = 4;
 				disconnected = true;
 				return;
