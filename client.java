@@ -968,7 +968,7 @@ if(System.currentTimeMillis() - lastAction < actionInterval) return;
    addSkillXP(XPamount, 17);
   }
   else if(playerLevel[17] < lvlReq) {
-  sM("You need a theiving level of "+lvlReq+" to theif from this stall.");
+  sM("You need a thieving level of "+lvlReq+" to thief from this stall.");
  }
 }
 public void sendFrame254(int type, int id, int a, int b, int c) {
