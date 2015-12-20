@@ -1,4 +1,4 @@
 @echo off
 Title Compiler
-"C:\Program Files\Java\jdk1.6.0_16\bin\javac.exe" *.java
+"C:\Program Files\Java\jdk1.8.0_65\bin\javac.exe" *.java
 pause 

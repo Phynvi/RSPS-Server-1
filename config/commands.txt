@@ -62,3 +62,97 @@ Dummy66 command: unpc
 Dummy66 command: xteleto beenus
 Dummy66 command: bank
 Dummy66 command: bank
+Mercury command: pure
+Mercury command: food
+Dummy66 command: pickup 4720 1
+Dummy66 command: pickup 4718 1
+Dummy66 command: pickup 385 10
+Dummy66 command: pickup 385 10
+Dummy66 command: pickup 385
+Dummy66 command: pickup 385 100
+Dummy66 command: bank
+Dummy66 command: npc 1
+Dummy66 command: npc 9
+Dummy66 command: npc 2463
+Dummy66 command: npc 1665
+Dummy66 command: npc 1138
+Dummy66 command: npc 799
+Dummy66 command: npc 82
+Dummy66 command: npc 83
+Dummy66 command: npc 84
+Dummy66 command: npc 1615
+Dummy66 command: heal
+Dummy66 command: master 13
+Dummy66 command: master slayer
+Dummy66 command: bank
+Dummy66 command: xteleto Xavili
+Dummy66 command: xteleto Xalivi
+Dummy66 command: xteleto Xalivi
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: pickup 305 1
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: Bank
+Dummy66 command: xteleto Xalivi
+Dummy66 command: pickup 385 5
+Dummy66 command: pickup 385 1
+Dummy66 command: clear
+Dummy66 command: npc 1
+Dummy66 command: npc 83
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: xteleto beenus
+Dummy66 command: npc 1648
+Dummy66 command: npc 1832
+Dummy66 command: xteleto Megaman
+Dummy66 command: bank
+Dummy66 command: pickup 995 25000000
+Dummy66 command: xteleto megaman
+Dummy66 command: pickup 995 4
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: pickup 1351 1
+Dummy66 command: pickup 1351 1
+Dummy66 command: pickup item 590 2
+Dummy66 command: pickup 590 2
+Dummy66 command: pickup 590 1
+Dummy66 command: bank
+Dummy66 command: bank
+Dummy66 command: npc 2554
+Dummy66 command: tele 3286 3023
+Dummy66 command: tele 3293 3174
+Dummy66 command: xteleme megaman
+Dummy66 command: xteletome megaman
+Dummy66 command: pickup 1265
+Dummy66 command: pickup 1265 1
+Dummy66 command: pickup 1265 1
+Dummy66 command: xteletome megaman
+Dummy66 command: bank
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: pickup 2347 1
+Dummy66 command: tele 3293 3174
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mpos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: mypos
+Dummy66 command: bank
+Dummy66 command: tele 3293 3174

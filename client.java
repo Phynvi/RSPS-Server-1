@@ -3573,6 +3573,22 @@ public void NewObjects() {
 	       makeGlobalObject(3090, 3489, 6551, 0, 10);
 	       makeGlobalObject(3090, 3488, 7272, 0, 10);
 	       makeGlobalObject(3090, 3487, 7319, 0, 10);
+		   //New stuff added by Dummy66
+		   makeGlobalObject(2814, 3473, 2783, 0, 10); //anvil in Catherby
+		   makeGlobalObject(2818, 3474, 2781, -3, 10); //furnace in Catherby
+		   makeGlobalObject(2816, 3475, 2213, 0, 10); //mining bank in Catherby
+		   makeGlobalObject(2811, 3471, 2090, 0, 10); //copper ore in Catherby
+		   makeGlobalObject(2812, 3471, 2094, 0, 10); //tin ore in Catherby
+		   makeGlobalObject(2813, 3471, 2092, 0, 10); //iron ore in Catherby
+		   makeGlobalObject(2814, 3471, 2100, 0, 10); //silver ore in Catherby
+		   makeGlobalObject(2815, 3471, 2098, 0, 10); //gold ore in Catherby
+		   makeGlobalObject(2816, 3471, 2102, 0, 10); //mithril ore in Catherby
+		   makeGlobalObject(2817, 3471, 2104, 0, 10); //adamant ore in Catherby
+		   makeGlobalObject(2818, 3471, 2106, 0, 10); //rune ore in Catherby
+		   makeGlobalObject(2819, 3471, 2110, 0, 10); //blurite ore in Catherby
+		   makeGlobalObject(2820, 3471, 4028, 0, 10); //lime ore in Catherby
+		   makeGlobalObject(2821, 3471, 2096, 0, 10); //coal ore in Catherby
+		   makeGlobalObject(2821, 3472, 3403, 0, 10); //elemental ore in Catherby
 	}
 public boolean HasItemAmount(int itemID, int itemAmount) {
       int playerItemAmountCount = 0;
